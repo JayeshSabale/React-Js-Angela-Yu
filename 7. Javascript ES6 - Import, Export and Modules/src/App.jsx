@@ -1,13 +1,13 @@
-import PI , {doublePi, triplePi} from "./math"
+import PI, { doublePi, triplePi } from './math'
 
 function App() {
   return (
     <div>
-      <li>{PI}</li>
-      <li>{doublePi()}</li>
-      <li>{triplePi()}</li>
+      <li>The value of PI is {PI}</li>
+      <li>The value of PI * 2 is {doublePi()}</li>
+      <li>The value of PI * 3 is {triplePi()}</li>
     </div>
-  );
+  )
 }
 
 export default App
